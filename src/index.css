@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-admin {
+  width: 100%;
+  background-color: red;
+  height: 64px;
+  color: #fff;
+}
+
+.layout-flex {
+  display: flex;
+}
+
+.menu-admin {
+  background-color: green;
+  height: calc(100vh - 64px);
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.menu-admin a {
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-admin .active {
+  background-color: aqua;
+  color: black;
+}
+
+.main-content {
+  background-color: gray;
+  flex: 1;
+}
